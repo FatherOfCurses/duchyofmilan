@@ -69,3 +69,45 @@ main { padding: 56px 0 64px; }
   .grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 40px; }
 }
+
+/* Footer memorial link — quiet, buried, tasteful */
+.footer-memoriam {
+  display: block; margin-bottom: 8px; color: #6b7079;
+  text-decoration: none; font-size: 13px; letter-spacing: 0.06em;
+}
+.footer-memoriam:hover { color: var(--muted); }
+
+/* In Memoriam page — deliberately somber; a straight-faced departure from the house style */
+.memoriam {
+  max-width: 680px; margin: 0 auto; padding: 24px 0 40px;
+  color: #d7d9dd; font-weight: 300;
+}
+.memoriam-head { text-align: center; padding: 24px 0 8px; }
+.memoriam-head h1 {
+  font-weight: 300; letter-spacing: 0.12em; font-size: 34px; margin: 0 0 12px;
+}
+.memoriam-sub { color: var(--muted); font-style: italic; margin: 0; }
+
+.memoriam-portraits {
+  display: flex; gap: 40px; justify-content: center; margin: 36px 0 40px;
+}
+.memoriam-portraits figure { margin: 0; text-align: center; }
+.memoriam-portraits figure::before {
+  content: ""; display: block; width: 120px; height: 150px; margin: 0 auto 12px;
+  background: #202227; border: 1px solid #2c2e34; border-radius: 4px;
+} /* placeholder frame until a headshot <img> is dropped in */
+.memoriam-portraits figcaption { letter-spacing: 0.08em; }
+.memoriam-portraits figcaption span {
+  display: block; color: #6b7079; font-size: 12px; margin-top: 4px; letter-spacing: 0.06em;
+}
+
+.memoriam-body { line-height: 1.85; font-size: 17px; }
+.memoriam-body p { margin: 0 0 20px; }
+.memoriam-benediction {
+  text-align: center; font-style: italic; color: var(--muted); padding: 12px 0;
+}
+.memoriam-sign { text-align: center; color: #6b7079; font-size: 14px; }
+
+@media (max-width: 560px) {
+  .memoriam-portraits { gap: 24px; }
+}
