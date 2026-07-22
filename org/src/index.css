@@ -62,6 +62,11 @@ main { padding: 20px 0 48px; }
   box-shadow: 0 4px 16px rgba(47,111,176,0.12);
 }
 .card h3 { color: var(--blue); margin-top: 0; }
+.card .headshot {
+  display: block; width: 84px; height: 84px; margin: 0 auto 14px;
+  border-radius: 50%; object-fit: cover; border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(47,111,176,0.25);
+}
 
 .footer { text-align: center; padding: 28px 0; color: #6b7c8f; font-size: 14px; }
 

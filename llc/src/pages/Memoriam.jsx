@@ -1,6 +1,5 @@
 // Copy: /content/llc-copy.md § In Memoriam.
 // Deliberately somber — a straight-faced departure from the cold .llc house style.
-// Portraits use the same /public/board/ convention (swap in headshots when available).
 export default function Memoriam() {
   return (
     <article className="memoriam">
@@ -13,11 +12,11 @@ export default function Memoriam() {
 
       <div className="memoriam-portraits">
         <figure>
-          {/* <img src="/board/prospero.jpg" alt="Prospero" /> */}
+          <img src="/board/prospero.png" alt="Prospero" />
           <figcaption>Prospero<span>Founder</span></figcaption>
         </figure>
         <figure>
-          {/* <img src="/board/miranda.jpg" alt="Miranda" /> */}
+          <img src="/board/miranda.jpg" alt="Miranda" />
           <figcaption>Miranda<span>1998 – 2011</span></figcaption>
         </figure>
       </div>
