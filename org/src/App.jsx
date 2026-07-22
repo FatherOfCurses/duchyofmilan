@@ -5,6 +5,8 @@ import People from "./pages/People.jsx";
 import Manifesto from "./pages/Manifesto.jsx";
 import Connect from "./pages/Connect.jsx";
 
+const SHOW_URL = "https://www.nashuatheatreguild.org/on-stage-now";
+
 // duchyofmilan.org — Web 2.0 era. See /content/org-copy.md and /design/org-direction.md.
 export default function App() {
   return (
@@ -34,7 +36,16 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        Made with care in the open. duchy of milan — beta. © 2011.
+        <a
+          className="footer-webring"
+          href={SHOW_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="A friend of the Duchy — visit their page"
+        >
+          ◈ part of the webring →
+        </a>
+        <div>Made with care in the open. duchy of milan — beta. © 2011.</div>
       </footer>
     </div>
   );
