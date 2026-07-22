@@ -16,11 +16,6 @@ export default function Leadership() {
           <h3>{ceo.name}</h3>
           <p className="accent">{ceo.role}</p>
         </div>
-        {/* Deliberate blank: the founder's chair sits vacant. */}
-        <div className="panel" style={{ opacity: 0.4, fontStyle: "italic" }}>
-          <h3>—</h3>
-          <p>Founder's chair (vacant). The company does not comment on its history.</p>
-        </div>
       </div>
 
       <h2>Board of Directors</h2>

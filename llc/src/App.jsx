@@ -1,9 +1,10 @@
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route, NavLink, Link } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Company from "./pages/Company.jsx";
 import Leadership from "./pages/Leadership.jsx";
 import Platform from "./pages/Platform.jsx";
 import Investors from "./pages/Investors.jsx";
+import Memoriam from "./pages/Memoriam.jsx";
 
 // duchyofmilan.llc — modern corporate era. See /content/llc-copy.md and /design/llc-direction.md.
 export default function App() {
@@ -30,11 +31,13 @@ export default function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/platform" element={<Platform />} />
           <Route path="/investors" element={<Investors />} />
+          <Route path="/memoriam" element={<Memoriam />} />
         </Routes>
       </main>
 
       <footer className="footer">
-        © 2026 Duchy of Milan LLC. All rights reserved. All positions final.
+        <Link className="footer-memoriam" to="/memoriam">In Memoriam</Link>
+        <div>© 2026 Duchy of Milan LLC. All rights reserved. All positions final.</div>
       </footer>
     </div>
   );

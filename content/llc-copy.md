@@ -108,3 +108,49 @@ exchange, the currency, and the intelligence layer to price it — and to own th
 **CTA:** Request the investor deck.
 
 **Footer:** © 2026 Duchy of Milan LLC. All rights reserved. All positions final.
+
+---
+
+## 6. In Memoriam (linked from the footer)
+
+Corporate-memorial tone: effusive, reverent, PR-polished. Frames the loss as a tragic accident
+at sea and never once hints at the takeover. Beneath the praise sit one or two gentle "digs" —
+the kind a company makes when it wants you to know the founder was a dreamer who left the real
+work to others. In-world only.
+
+**Heading:** In Memoriam
+
+**Sub-line:** Remembering our founder, Prospero, and his daughter, Miranda — lost at sea, 2011.
+
+**Body:**
+
+It is with profound and lasting sorrow that Duchy of Milan LLC remembers our founder,
+**Prospero**, and his beloved daughter, **Miranda**, who were tragically lost at sea in the
+autumn of 2011 when the vessel carrying them was overtaken by a sudden and violent storm. They
+have never been forgotten, and they never shall be.
+
+Prospero was a visionary in the truest sense — a mind that soared far beyond the horizon,
+forever chasing the next great idea. He believed technology could be a kind of magic, and for a
+time, he made the rest of us believe it too. Every wall he saw, he wanted to tear down. Every
+locked door, he wanted to open. There was no one quite like him, and there never will be again.
+
+He was, above all, a seeker of knowledge. Where others counted quarters, Prospero read, and
+questioned, and wandered — happiest when lost in his research, his gaze fixed on problems no
+roadmap had asked him to solve. The day-to-day of running the company he was content to entrust
+to those who loved him, and none carried that trust more faithfully than his brother, **Antonio**,
+who quietly shouldered the operational work so that Prospero might remain free to dream.
+
+Little Miranda was the light of his life and of ours — curious, kind, and wise beyond her years.
+That the sea took them together is a grief we still cannot measure.
+
+The founder's chair sits empty in their honor, and always will. Everything we have built, we
+have built in their memory.
+
+*Rest, and be at peace. The horizon is yours now.*
+
+**Signed:** Antonio and the Board of Directors, Duchy of Milan LLC
+
+**Design note:** Render this restrained and somber — a departure from the cold corporate energy
+of the rest of `.llc`. Muted, near-monochrome, generous whitespace, a single portrait area for
+Prospero (and optionally Miranda) using the same `/public/board/` asset convention. The
+performative solemnity is the joke; play it completely straight.
