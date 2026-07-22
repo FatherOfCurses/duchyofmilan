@@ -59,6 +59,14 @@ main { padding: 56px 0 64px; }
 }
 .panel h3 { margin-top: 0; }
 .panel .accent { color: var(--accent); }
+.panel .headshot {
+  display: block; width: 72px; height: 72px; margin-bottom: 16px;
+  border-radius: 4px; object-fit: cover; border: 1px solid #2c2e34;
+}
+.panel .headshot-pending {
+  display: flex; align-items: center; justify-content: center;
+  background: #202227; color: var(--muted); font-size: 24px; font-weight: 600;
+}
 
 .footer {
   text-align: center; padding: 30px 0; color: #5b6067; font-size: 13px;
@@ -92,10 +100,11 @@ main { padding: 56px 0 64px; }
   display: flex; gap: 40px; justify-content: center; margin: 36px 0 40px;
 }
 .memoriam-portraits figure { margin: 0; text-align: center; }
-.memoriam-portraits figure::before {
-  content: ""; display: block; width: 120px; height: 150px; margin: 0 auto 12px;
-  background: #202227; border: 1px solid #2c2e34; border-radius: 4px;
-} /* placeholder frame until a headshot <img> is dropped in */
+.memoriam-portraits img {
+  display: block; width: 120px; height: 150px; margin: 0 auto 12px;
+  object-fit: cover; border: 1px solid #2c2e34; border-radius: 4px;
+  filter: grayscale(1) contrast(1.05);
+}
 .memoriam-portraits figcaption { letter-spacing: 0.08em; }
 .memoriam-portraits figcaption span {
   display: block; color: #6b7079; font-size: 12px; margin-top: 4px; letter-spacing: 0.06em;
