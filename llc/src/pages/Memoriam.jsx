@@ -1,3 +1,18 @@
+const SHOW_URL = "https://www.nashuatheatreguild.org/on-stage-now";
+const SHOW_PERFORMANCES = [
+  "Fri Jul 31 — 7:00 PM",
+  "Sat Aug 1 — 2:00 PM & 7:00 PM",
+  "Fri Aug 7 — 7:00 PM",
+  "Sat Aug 8 — 2:00 PM & 7:00 PM",
+];
+const SHOW_VENUE = "Greeley Park, Nashua, NH";
+
+function formatPerformances(items) {
+  return items.length === 1
+    ? items[0]
+    : `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+}
+
 // Copy: /content/llc-copy.md § In Memoriam.
 // Deliberately somber — a straight-faced departure from the cold .llc house style.
 export default function Memoriam() {
@@ -52,6 +67,17 @@ export default function Memoriam() {
           built, we have built in their memory.
         </p>
         <p className="memoriam-benediction">Rest, and be at peace. The horizon is yours now.</p>
+        <p className="memoriam-gathering">
+          <a
+            href={SHOW_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Memorial gathering details"
+          >
+            A memorial gathering will be held {formatPerformances(SHOW_PERFORMANCES)} at{" "}
+            {SHOW_VENUE}.
+          </a>
+        </p>
         <p className="memoriam-sign">— Antonio and the Board of Directors, Duchy of Milan LLC</p>
       </div>
     </article>

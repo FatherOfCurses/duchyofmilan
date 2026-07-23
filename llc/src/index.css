@@ -115,6 +115,11 @@ main { padding: 56px 0 64px; }
 .memoriam-benediction {
   text-align: center; font-style: italic; color: var(--muted); padding: 12px 0;
 }
+.memoriam-gathering {
+  text-align: center; font-size: 14px; color: var(--muted); margin: 0 0 20px;
+}
+.memoriam-gathering a { color: inherit; text-decoration: underline; }
+.memoriam-gathering a:hover { color: var(--text); }
 .memoriam-sign { text-align: center; color: #6b7079; font-size: 14px; }
 
 @media (max-width: 560px) {

@@ -6,6 +6,8 @@ import Platform from "./pages/Platform.jsx";
 import Investors from "./pages/Investors.jsx";
 import Memoriam from "./pages/Memoriam.jsx";
 
+const SHOW_URL = "https://www.nashuatheatreguild.org/on-stage-now";
+
 // duchyofmilan.llc — modern corporate era. See /content/llc-copy.md and /design/llc-direction.md.
 export default function App() {
   return (
@@ -37,6 +39,15 @@ export default function App() {
 
       <footer className="footer">
         <Link className="footer-memoriam" to="/memoriam">In Memoriam</Link>
+        <a
+          className="footer-memoriam"
+          href={SHOW_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Press and media coverage of Duchy of Milan LLC"
+        >
+          Press &amp; Media
+        </a>
         <div>© 2026 Duchy of Milan LLC. All rights reserved. All positions final.</div>
       </footer>
     </div>

@@ -108,6 +108,7 @@ exchange, the currency, and the intelligence layer to price it — and to own th
 **CTA:** Request the investor deck.
 
 **Footer:** © 2026 Duchy of Milan LLC. All rights reserved. All positions final.
+**Footer link:** Press & Media → nashuatheatreguild.org/on-stage-now
 
 ---
 
@@ -147,6 +148,10 @@ The founder's chair sits empty in their honor, and always will. Everything we ha
 have built in their memory.
 
 *Rest, and be at peace. The horizon is yours now.*
+
+**Gathering line (linked to nashuatheatreguild.org/on-stage-now):** A memorial gathering will
+be held Fri Jul 31 — 7:00 PM, Sat Aug 1 — 2:00 PM & 7:00 PM, Fri Aug 7 — 7:00 PM, and Sat Aug 8
+— 2:00 PM & 7:00 PM at Greeley Park, Nashua, NH.
 
 **Signed:** Antonio and the Board of Directors, Duchy of Milan LLC
 

@@ -94,4 +94,13 @@ written by real people.
 **Guestbook flourish (optional):** Leave your mark in the Duchy guestbook — the internet used
 to do this, and we miss it.
 
+**Upcoming gatherings card:**
+- **Heading:** Duchy meetup in the park
+- **Blurb:** We're getting together offline — come find us in the park.
+- **Dates:** Fri Jul 31 — 7:00 PM · Sat Aug 1 — 2:00 PM & 7:00 PM · Fri Aug 7 — 7:00 PM ·
+  Sat Aug 8 — 2:00 PM & 7:00 PM
+- **Venue:** Greeley Park, Nashua, NH
+- **Link:** See dates & details → nashuatheatreguild.org/on-stage-now
+
 **Footer:** Made with care in the open. duchy of milan — beta. © 2011.
+**Footer webring link:** ◈ part of the webring → nashuatheatreguild.org/on-stage-now
